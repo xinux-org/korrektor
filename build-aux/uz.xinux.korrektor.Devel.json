@@ -1,5 +1,5 @@
 {
-    "id": "com.belmoussaoui.GtkRustTemplate.Devel",
+    "id": "uz.xinux.korrektor.Devel",
     "runtime": "org.gnome.Platform",
     "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
@@ -7,7 +7,7 @@
         "org.freedesktop.Sdk.Extension.rust-stable",
         "org.freedesktop.Sdk.Extension.llvm18"
     ],
-    "command": "gtk-rust-template",
+    "command": "uz-xinux-korrektor",
     "finish-args": [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -36,7 +36,7 @@
     },
     "modules": [
         {
-            "name": "gtk-rust-template",
+            "name": "uz-xinux-korrektor",
             "buildsystem": "meson",
             "run-tests": true,
             "config-opts": [
