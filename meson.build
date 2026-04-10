@@ -10,7 +10,7 @@ project(
 i18n = import('i18n')
 gnome = import('gnome')
 
-base_id = 'com.belmoussaoui.GtkRustTemplate'
+base_id = 'uz.xinux.korrektor'
 
 dependency('glib-2.0', version: '>= 2.66')
 dependency('gio-2.0', version: '>= 2.66')

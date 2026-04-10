@@ -1,5 +1,5 @@
 [package]
-name = "gtk-rust-template"
+name = "korrektor"
 authors = ["Bilal Elmoussaoui <bil.elmoussaoui@gmail.com>"]
 edition = "2021"
 

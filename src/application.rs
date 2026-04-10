@@ -148,7 +148,7 @@ impl Default for ExampleApplication {
     fn default() -> Self {
         glib::Object::builder()
             .property("application-id", *APP_ID)
-            .property("resource-base-path", "/com/belmoussaoui/GtkRustTemplate/")
+            .property("resource-base-path", "/uz/xinux/korrektor/")
             .build()
     }
 }
